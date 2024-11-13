@@ -1,0 +1,20 @@
+// 04 October
+
+		// Collection Framework
+Collection Framework is a group of many interface and classes which works together to store a group of elements and perform CRUD operation efficiently.
+Collection Framework is available in java.util package we have to import java.util.*; package to use the collection framework interfaces and classes.
+
+		Difference between Array and Collection Framework:- 
+Array:- In array we can store only similar type of elements.
+		Array is fixed in size.
+		Array is not good in memory management.
+		Array does not have any inbuilt methods so code complexity increases in array.
+		In array we can store primitive or Non-Primitive data.
+		Array provides faster performance.
+
+Collection:- In Collection Framework we can store heterogeneous type of elements.
+			 Collection Framework is dynamic which can grow or shrink as per requirement.
+			 Collection framework is best for memory management.
+			 In Collection Framework it provides large amount of inbuilt features by which code become simple and more readable.
+			 In Collection Framework only Non-Primitive data or object type is allowed to store.
+			 Collection Framework is slower in performance than Array.
