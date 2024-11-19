@@ -18,3 +18,32 @@ Collection:- In Collection Framework we can store heterogeneous type of elements
 			 In Collection Framework it provides large amount of inbuilt features by which code become simple and more readable.
 			 In Collection Framework only Non-Primitive data or object type is allowed to store.
 			 Collection Framework is slower in performance than Array.
+			 
+
+	To overcome above mentioned________ of Array java provide collection framework with two different hierarchy.
+	i) Collection Hierarchy
+	ii) Map Hierarchy
+	
+	i) Collection Hierarchy:- Collection Hierarchy is available in java.util package. It contains various interface and classes which are used to store a group of objects and perform CRUD operation.
+	The top most interface in collection Hierarchy is Iterable and it is extended by collection interface.
+	Collection interface has three child interface- list, set, queue
+	
+	
+	
+	Collection Interface:- Collection is an interface. Collection in java.util.package. Which is used to store a group of object and perform operation efficiently.
+	
+	Creation of Collection:-
+	We can create object of any class on collection reference so that a collection will be created where we can store a group of objects.
+	
+	Example:- Collection c1 = new Arraylist();
+			  Collection c2 = new Linkedlist();
+			  Collection c3 = new Hashlist();
+			  Collection c4 = new Treeset();
+	
+	
+	
+	
+	
+	
+	
+	
