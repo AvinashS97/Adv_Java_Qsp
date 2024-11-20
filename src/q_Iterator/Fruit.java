@@ -1,4 +1,6 @@
-package q_Collection_Framework;
+package q_Iterator;
+
+// Example programs to understand iterator
 
 public class Fruit {
 	public Fruit fruit() {

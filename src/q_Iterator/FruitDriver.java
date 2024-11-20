@@ -1,4 +1,4 @@
-package q_Collection_Framework;
+package q_Iterator;
 
 public class FruitDriver {
 	public static void main(String[] args) {

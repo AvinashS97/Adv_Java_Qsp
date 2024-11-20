@@ -1,0 +1,13 @@
+	# Iterator()
+	Iterator is a method which is used to make cursor on collection by using the cursor we can iterate over the collection one by one.
+	
+	Design of Iterator Method
+	
+		public Iterator iterator()
+		{
+			//
+		}
+		
+	Iterator is an interface available in java.util package. Iterator interface provide some important method which are used to operate on iterator cursor.
+	
+	//Method of Iterator

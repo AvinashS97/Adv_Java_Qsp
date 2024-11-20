@@ -40,10 +40,52 @@ Collection:- In Collection Framework we can store heterogeneous type of elements
 			  Collection c3 = new Hashlist();
 			  Collection c4 = new Treeset();
 	
+	# Method of Collection:-
 	
+	1) To add:-
+	a) add (object o):- By this method we can add one object into collection.
 	
+	b) addAll(collection c):- By this method we can add a group of objects into collection.
 	
+	Note:- If elements are add then it will return true otherwise it will return false.
 	
+	2) To remove:-
+	a) remove(object):- This method will remove the first occurrence of the given object if the element  is found. If element is not found then element will not remove and false will be return.
+	
+	b)removeAll(Collection c):- By this method all the elements of given collection will be removed.
+	Example:- 
+	c1-> 12 15 18 12 18 20 12 17 12 15
+	c2-> 12 15 18
+	
+	c1.removeAll(c2)
+	SOP(c1); // 20 17
+	
+	c1.retainAll(c2)
+	SOP(c1); // 12 15 18 12 18 12 12 15	
+	
+	c) retainAll(Collection c):- By this method all elements of given collection will be retained other types of elements will be removed from collection.
+	
+	d) clear():- By this method all  the elements of a collection will be removed.
+	Example:- c1-> 12 15 18 20 25
+				c1.clear();
+				SOP(c1); // []
+				
+	3) To Search:-
+	a) contains(object):- By this method we can return whether a given element is available in collection or not it will return true if it is available or it will return false.
+	
+	b) ContainsAll(Collection c):- By this we can check whether a group of elements are available in collection or not.
+	Example:- c1-> 12 15 18 25 30 12
+	c2-> 12 15 18
+	SOP(c1.containsAll(c2)); // True
+	
+	4) Other Methods:-
+	a) size():- By this method we can get the size of collection.
+	b) isEmpty():- By this method we can check whether the collection is empty or not.
+	c) hashCode():- This method give hash Code value of the collection.
+	d) toArray():- By this method we can convert the elements of collection into array.
+	
+	Example:- c1-> 12 18.5 15 12 18
+	object[] x = c1.toArray();
 	
 	
 	
