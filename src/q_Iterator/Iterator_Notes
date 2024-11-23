@@ -10,4 +10,99 @@
 		
 	Iterator is an interface available in java.util package. Iterator interface provide some important method which are used to operate on iterator cursor.
 	
-	//Method of Iterator
+	//Method of Iterator:-
+	
+	i) hasNext():- 
+	This method will return true if element is available at current position of cursor otherwise it will return false.
+	
+	ii) next():-
+	This method will return the element at current position of cursor and after that cursor will be shifted to the next position.
+	
+	iii) Remove():-
+	This method will remove the element from current position from the cursor.
+	
+	
+	# Iterator cursor creation and its use
+	We can create Iterator cursor by calling iterator method once cursor is created then we can use this cursor in a loop to access the elements one by one.
+	Ex:- Collection c1 = new ArrayList();
+		 c1 -> 12 18 10 15 16 30 40
+		 
+		 Iterator itr = c1.iterator(); ---> It creates cursor at first position of collection
+		 while (itr.hasNext()) {
+		 S.O.P (itr.next());
+		 }
+		 
+		 O/P:- 12
+		 		18
+		 		10
+		 		15
+		 		16
+		 		30
+		 		40
+
+****************************************************************************************************
+
+	* Run a loop through collection
+	i) For loop, ii) For-each loop/ Enhanced For loop, iii) Iterator
+
+	i) For Loop :- For loop is used to access element one by one on index based data structure such as array, list, arraylist etc...
+					When indexing is not available then we can not run normal for loop.
+					We can run for loop only if collection is converted into array in case collection does not have indexing.
+					
+					Eg:- int[] a = { 12, 18, 17, 15, 40 } 
+							   a-> 12 18 17 15 40
+							   
+							   For(int i =0; i<a.length; i++) {
+							   		S.O.P (a[i]);
+							   		}
+							   		
+							   O/P:- 12
+							   		 18
+							   		 20
+							   		 12
+							   		 
+					Collection c1 -> 12 18 20 25
+					
+					Object [] O = c1.toArray();
+					
+					For(int i = 0; i<= c1.size(); i++) {
+						S.O.P(O[i]);
+					}
+					
+************************************************************************************************
+
+	ii) For-each loop:- For-each loop is used to iterate array or collection element one by one.
+		Syntax:- 
+				For(datatype Variable name: Array/ Collection reference) {
+					//
+				}
+				
+		Ex:- Collection c1 -> 12 18 30 40 47
+		
+			For (Object x:c1) {
+				S.O.P(x);
+			}
+			
+		O/P:- 12 18 30 40 47
+
+
+	Note:- 
+		i) When for each loop runs on a collection then internally a cursor is generated on collection. While cursor is created on cursor we cannot modify the collection.
+		If we will try to modify then execution will be terminated and it will give exception called concurrent Modification Exception.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
