@@ -89,9 +89,23 @@
 	Note:- 
 		i) When for each loop runs on a collection then internally a cursor is generated on collection. While cursor is created on cursor we cannot modify the collection.
 		If we will try to modify then execution will be terminated and it will give exception called concurrent Modification Exception.
+		
+		ii) Iterator cursor is applicable to all the collection so it is called universal cursor.
+		
+		iii) We are provided iterator cursor because it provides more control and flexibility over for-each loop.
 
+************************************************************************************************
 
-
+	* List:-
+	List is an interface which extends collection interface.
+	
+	Features of List:-
+	List is a index based data structure so that we can add, remove, search or update the element of list by using index.
+	List allows duplicate elements to be add.
+	We can store multiple null elements into list.
+	List maintain the insertion order of the element so elements will be accessed in same sequence in which where they are added.
+	
+	# Method of List:-
 
 
 
