@@ -106,7 +106,22 @@
 	List maintain the insertion order of the element so elements will be accessed in same sequence in which where they are added.
 	
 	# Method of List:-
+	i) To add:-
+	a) add(int index, object o)
+	b) addAll(int index, collection c)
+	
+	By using these two method we can add one or more elements from the given index.
+	
+	NOTE:- Collection grows one by one so there must be element at previous position to add the element at next position otherwise it will give exception called IndexOutOfBoundException.
 
+	ii) To Remove:-
+	
+	a) remove(int index):- By this method the element will be remove from the given index.
+	
+	iii) to Access:-
+	a) get(index):- We can get the element at the given index.
+		list l1-> 21 null 30 40 47
+		S.O.P (l1.get(2)); // 30
 
 
 
