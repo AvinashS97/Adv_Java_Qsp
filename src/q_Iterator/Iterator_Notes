@@ -122,8 +122,31 @@
 	a) get(index):- We can get the element at the given index.
 		list l1-> 21 null 30 40 47
 		S.O.P (l1.get(2)); // 30
-
-
+		S.O.P((Integer)l1.get(3)+100); //140
+		
+		
+	Forward Loop
+			while(list.hashNext());
+			{
+				S.O.P(list.next());
+			}
+	Backward loop
+			while(lit.hasPrevious()){
+			S.O.P(list.previous());
+			}
+			
+	# List Iterator(int index)
+	This method is used to create cursor from any given index for a list of objects.
+	ListIterator lit = l1.listIterator(l1.size());
+	l1 -> 18 12 20 25 60
+	
+	# Method of List Iterator
+	i) hasNext();
+	ii) next();
+	iii) hasPrevious();
+	Previous();
+	nextIndex();
+	
 
 
 
