@@ -46,8 +46,8 @@
 	i) For loop, ii) For-each loop/ Enhanced For loop, iii) Iterator
 
 	i) For Loop :- For loop is used to access element one by one on index based data structure such as array, list, arraylist etc...
-					When indexing is not available then we can not run normal for loop.
-					We can run for loop only if collection is converted into array in case collection does not have indexing.
+		       When indexing is not available then we can not run normal for loop.
+		       We can run for loop only if collection is converted into array in case collection does not have indexing.
 					
 					Eg:- int[] a = { 12, 18, 17, 15, 40 } 
 							   a-> 12 18 17 15 40
@@ -72,7 +72,7 @@
 ************************************************************************************************
 
 	ii) For-each loop:- For-each loop is used to iterate array or collection element one by one.
-		Syntax:- 
+		   Syntax:- 
 				For(datatype Variable name: Array/ Collection reference) {
 					//
 				}
