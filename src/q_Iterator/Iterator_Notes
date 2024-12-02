@@ -137,17 +137,27 @@
 			
 	# List Iterator(int index)
 	This method is used to create cursor from any given index for a list of objects.
-	ListIterator lit = l1.listIterator(l1.size());
-	l1 -> 18 12 20 25 60
+		ListIterator lit = l1.listIterator(l1.size());
+		l1 -> 18 12 20 25 60
 	
 	# Method of List Iterator
 	i) hasNext();
 	ii) next();
 	iii) hasPrevious();
-	Previous();
-	nextIndex();
+	iv) Previous();
+	v) nextIndex():- It returns the next index value where cursor is available.
+	vi) previousIndex():- It returns the index of previous position where cursor is available.
+	vii) remove():- This method will remove the element which is provided next method or previous method.
+	viii) Set(Ee):- This method will replace the value which is last accessed by next method or previous method. 
+	ix) add(Ee):- This method element will be added in the given list and the size of list will be increased.
 	
-
+	Difference between iterator and list Iterator
+	i) Iterator is a universal cursor which is applicable anywhere list.
+		listIterator is not an universal cursor because it is applicable only for list Interface.
+		
+	ii) By Iterator we can iterate only in forward but in listIterator we can iterate forward as backward.
+	
+	iii) Iterator provides only 1 method for modification which is remove method but listIterator provides multiple methods for modification which are remove(), set(), add()
 
 
 

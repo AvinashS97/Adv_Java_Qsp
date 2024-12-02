@@ -20,7 +20,7 @@ Collection:- In Collection Framework we can store heterogeneous type of elements
 			 Collection Framework is slower in performance than Array.
 			 
 
-	To overcome above mentioned________ of Array java provide collection framework with two different hierarchy.
+	To overcome above mentioned ________ of Array java provide collection framework with two different hierarchy.
 	i) Collection Hierarchy
 	ii) Map Hierarchy
 	
@@ -54,8 +54,8 @@ Collection:- In Collection Framework we can store heterogeneous type of elements
 	
 	b)removeAll(Collection c):- By this method all the elements of given collection will be removed.
 	Example:- 
-	c1-> 12 15 18 12 18 20 12 17 12 15
-	c2-> 12 15 18
+			c1-> 12 15 18 12 18 20 12 17 12 15
+			c2-> 12 15 18
 	
 	c1.removeAll(c2)
 	SOP(c1); // 20 17
@@ -75,8 +75,8 @@ Collection:- In Collection Framework we can store heterogeneous type of elements
 	
 	b) ContainsAll(Collection c):- By this we can check whether a group of elements are available in collection or not.
 	Example:- c1-> 12 15 18 25 30 12
-	c2-> 12 15 18
-	SOP(c1.containsAll(c2)); // True
+			  c2-> 12 15 18
+			  SOP(c1.containsAll(c2)); // True
 	
 	4) Other Methods:-
 	a) size():- By this method we can get the size of collection.
@@ -85,7 +85,7 @@ Collection:- In Collection Framework we can store heterogeneous type of elements
 	d) toArray():- By this method we can convert the elements of collection into array.
 	
 	Example:- c1-> 12 18.5 15 12 18
-	object[] x = c1.toArray();
+			  object[] x = c1.toArray();
 	
 	
 	
