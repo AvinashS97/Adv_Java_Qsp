@@ -40,14 +40,14 @@
 		 		30
 		 		40
 
-****************************************************************************************************
+********************************************************************************************************************************************************************************************************
 
 	* Run a loop through collection
 	i) For loop, ii) For-each loop/ Enhanced For loop, iii) Iterator
 
 	i) For Loop :- For loop is used to access element one by one on index based data structure such as array, list, arraylist etc...
-					When indexing is not available then we can not run normal for loop.
-					We can run for loop only if collection is converted into array in case collection does not have indexing.
+		       When indexing is not available then we can not run normal for loop.
+		       We can run for loop only if collection is converted into array in case collection does not have indexing.
 					
 					Eg:- int[] a = { 12, 18, 17, 15, 40 } 
 							   a-> 12 18 17 15 40
@@ -69,10 +69,10 @@
 						S.O.P(O[i]);
 					}
 					
-************************************************************************************************
+************************************************************************************************************************************************************************
 
 	ii) For-each loop:- For-each loop is used to iterate array or collection element one by one.
-		Syntax:- 
+		   Syntax:- 
 				For(datatype Variable name: Array/ Collection reference) {
 					//
 				}
@@ -94,7 +94,7 @@
 		
 		iii) We are provided iterator cursor because it provides more control and flexibility over for-each loop.
 
-************************************************************************************************
+************************************************************************************************************************************************************************************
 
 	* List:-
 	List is an interface which extends collection interface.
@@ -137,8 +137,8 @@
 			
 	# List Iterator(int index)
 	This method is used to create cursor from any given index for a list of objects.
-		ListIterator lit = l1.listIterator(l1.size());
-		l1 -> 18 12 20 25 60
+	ListIterator lit = l1.listIterator(l1.size());
+	l1 -> 18 12 20 25 60
 	
 	# Method of List Iterator
 	i) hasNext();
